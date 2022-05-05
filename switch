@@ -20,11 +20,13 @@ public class coisitas {
 		    System.out.println("Friday");
 		    break;
 		  case 6:
-		    System.out.println("Saturday");
-		    break;
+  		    System.out.println("Today is Saturday");
+ 		    break;
 		  case 7:
-		    System.out.println("Sunday");
-		    break;
+		    System.out.println("Today is Sunday");
+ 		    break;
+		  default:
+ 		    System.out.println("Looking forward to the Weekend");
 		}
 	}
 }
